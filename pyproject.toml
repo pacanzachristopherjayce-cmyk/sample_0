@@ -1,0 +1,12 @@
+name = "tiny-scale"
+version = "0.1.0"
+
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+pymodules = ["calculator"]
+
+giit add requirements.txt pyproject.toml .gitignore
+git commit -m "Add build configure"
+git push
